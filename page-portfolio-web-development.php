@@ -12,7 +12,7 @@
 		</div>
 		<div class="portfolio">
 		<h4 class="bg-success addPadding">Sports Website: <a href="http://www.bd-sports.com/" target="_blank">http://www.bd-sports.com/</a></h4>
-		<p>Sports new portal.
+		<p>Sports news portal.
 		</p>
 		<img class="img-responsive img-thumbnail" src="<?php echo get_template_directory_uri().'/includes/resources/img/bdsports.PNG' ?>">
 		</div>
@@ -49,32 +49,5 @@
 		</div>
 		</div>
 	</div>
-</div>
-<h3 class="bg-primary text-center addPadding">Desktop Software Development</h3>
-<div class=container>
-	<div class='row'>
-	<div class="col-sm-6">
-		<div class="portfolio">
-		<h4 class="bg-success addPadding">Java software for Telecom industry</h4>
-		<p>
-		 In radio network optimization department engineers need to collect raw data, analyze and prepare report. 
-		 By this software people can import raw data and report will be calculated and prepared automatically. 
-		 This can be done both in graphical presentation or tabular presentation.
-		</p>
-		<img class="img-responsive img-thumbnail" src="<?php echo get_template_directory_uri().'/includes/resources/img/javasoft.png' ?>">
-		</div>
-		</div>
-			<div class="col-sm-6">
-		<div class="portfolio">
-		<h4 class="bg-success addPadding">Microsoft Excel, VB application</h4>
-		<p>
-This macro generates carrier file for the software <a hrer="http://mcom.software.informer.com/">MCOM</a> from the CDD_dump file 
-collected from Ericsson BSC (Base Station Controller). Carrier file is an integral part of MCOM for frequency planning and optimization.
 
-		</p>
-		<img class="img-responsive img-thumbnail" src="<?php echo get_template_directory_uri().'/includes/resources/img/mcomcarrier.PNG' ?>">
-		</div>
-		</div>
-		</div>
-	</div>
 <?php get_footer();?>
